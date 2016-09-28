@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context reloadable = "true">
+<Resource
+      name="jdbc/sampleDS"
+      type="javax.sql.DataSource"
+      maxActive="100"
+      maxIdle="40"
+      username="postgres"
+      maxWait="5000"
+      driverClassName="org.postgresql.Driver"
+      password="666"
+      url="jdbc:postgresql://localhost:5432/postgres"/>
+</Context>

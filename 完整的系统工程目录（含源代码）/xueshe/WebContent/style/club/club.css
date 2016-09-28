@@ -1,0 +1,117 @@
+.body
+{
+	margin: 0 auto;
+	width:1000px;
+	font-family:微软雅黑;
+}
+.content_wrap
+{
+	
+}
+.clubs_h
+{
+	height:60px;
+	width:1000px;
+	margin: 0 auto;
+}
+.decoration_block
+{
+	width:15px;
+	height:30px;
+	background:rgb(201,22,35);
+	float:left;
+	margin: 30px 0px 10px 10px;
+}
+.decoration_note
+{
+	width:200px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	margin: 30px 10px 10px 10px;
+	font-size:20px;
+	text-align:left;
+	font-weight: bold;
+	color:#333;
+}
+#club_name
+{
+	clear:both;
+	margin-left:80px;
+	margin-right:80px;
+}
+#club_about
+{
+	clear:both;
+	margin-left:80px;
+	margin-right:80px;
+}
+#club_course
+{
+	clear:both;
+	margin-left:80px;
+	margin-right:80px;
+}
+#course_list
+{
+	margin-left:-40px;
+}
+.course_item
+{
+	list-style-type:none;
+	height:40px;
+	width:200px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.course
+{
+	margin:0;
+	height:40px;
+	width:600px;
+	color:#666;
+}
+.course a
+{
+	color:#666;
+}
+.course:hover
+{
+	color:#fff;
+	background:#666;
+}
+.course:hover a
+{
+	color:#fff;
+}
+.select_button
+{
+	color:#fff;
+	height:38px;
+	line-height:38px;
+	width:60px;
+	background:#666;
+	float:right;
+	text-align:center;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	border-right:1px solid #666;
+}
+.select_button:hover
+{
+	color:#666;
+	background:#fff;
+}
+.course_name
+{
+	height:38px;
+	line-height:38px;
+	width:518px;
+	float:left;
+	padding-left:20px;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	border-left:1px solid #666;
+}
+
+

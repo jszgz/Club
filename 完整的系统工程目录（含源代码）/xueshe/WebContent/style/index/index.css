@@ -1,0 +1,77 @@
+.slider {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.body {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: 微软雅黑;
+}
+
+.clubs_h
+{
+	height:60px;
+	width:1000px;
+	margin: 0 auto;
+}
+.decoration_block
+{
+	width:15px;
+	height:30px;
+	background:rgb(201,22,35);
+	float:left;
+	margin: 30px 0px 10px 10px;
+}
+.decoration_note
+{
+	width:100px;
+	height:30px;
+	float:left;
+	margin: 30px 10px 10px 10px;
+	font-size:20px;
+	text-align:left;
+	font-weight: bold;
+	color:#333;
+}
+.club_item
+{
+	width: 248px;
+	height: 198px;
+	margin:1px;
+	text-align:center;
+}
+.club_item:hover
+{
+	border: 1px solid #666;
+}
+.club_name
+{
+	height:33px;
+	width:230px;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 33px;
+}
+li
+{
+	float:left;
+	list-style-type:none;
+	width: 250px;
+	height: 200px;
+	margin-top:10px;
+}
+#list
+{
+	position:relative;
+	clear:both;
+	margin-bottom: 890px;
+}
+#list_wrap
+{
+	position:relative;
+}
+#club_list
+{
+	margin-left:  -40px;
+}

@@ -1,0 +1,182 @@
+body
+{
+	font-family:微软雅黑;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	color:#666;
+}
+.wrap
+{
+	width:990px;
+	margin: 0 auto;
+}
+#logo
+{
+	margin:10px 0 0;
+	height:60px;
+}
+.login_wrap
+{
+	position: relative;
+    height: 476px;
+    margin: 10px 0 20px;
+    width: 100%;
+    background: #000000;
+}
+.login_banner
+{
+	position:relative;
+    width: 1366px;
+	margin: 0 auto;
+}
+.login_banner video
+{
+	position:absolute;
+	left: 0;
+	top:0;
+	z-index:2;
+}
+.mask
+{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 1366px;
+	height: 476px;;
+	background: #000000;
+	filter:alpha(Opacity=60);
+	opacity:0.6;
+	z-index:3;
+}
+.slogan
+{
+	position:absolute;
+	left:150px;
+	top:30px;
+	width: 500px;
+	height: 400px;
+	background-image:url(../../images/slogan.png);
+	background-repeat:no-repeat;
+	z-index:4;
+}
+.login_part
+{
+	position:absolute;
+	left:780px;
+	top:55px;
+	width:310px;
+	height: 300px;
+	padding:20px;
+	background:#fff;
+	filter:alpha(Opacity=95);
+	opacity:0.95;
+	z-index:4;
+}
+.login_form h1
+{
+	position:relative;
+	height:27px;
+	line-height:27px;
+	font-size:20px;
+	top: -10px;
+}
+.name 
+{
+	border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.psd
+{
+	border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.name_label
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index:9;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url(../../images/name.png) no-repeat;
+}
+.psd_label
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index:9;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background: url(../../images/psd.png) no-repeat;
+}	
+.button
+{
+	position: relative;
+    margin-bottom: 20px;
+}
+.button_bg
+{
+    height: 33px;
+    position: relative;
+    display: block;
+    width: 302px;
+    background: #e4393c;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    z-index:9;
+}
+.button_bg input
+{
+	background:none;
+	border:none;
+    color:#fff;
+    font-size: 18px;
+    width:302px;
+    height:33px;
+    font-family:微软雅黑;
+    
+}
+.button_bg:hover
+{
+    background: #ff393c;
+}
+.text
+{
+	line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    font-size: 14px;
+}
+.auto_login
+{
+	font-size: 15px;
+	margin-bottom:10px;
+}
+.auto_login label
+{
+	float:right;
+	text-align:right;
+	margin-right:10px;
+	color:#f00;
+}
+.tips
+{
+	font-size: 12px;
+}
+
+
